@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(71 85 105);
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* .container {
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* header {
+  background-color: #ddd;
+  padding: 20px 0;
+  text-align: center;
+} */
+
+/* .title {
+  font-size: 4rem;
+  font-family: "Quicksand";
+  font-weight: 700;
+  letter-spacing: 1rem;
+} */
+
+h1,
+h2 {
+  text-align: center;
+}
+.volunteer-page-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: #79c27c;
+}
+
+.volunteers-img {
+  border-radius: 8px;
+}
+.volunteer-page-middle {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pantries-container {
+  background-color: #79c27c;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pantries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  column-gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: right;
+  padding: 1.5rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+.signup-wrapper {
+  position: relative;
+}
+
+.signup-dropdown {
+  position: absolute;
+
+  padding: 1rem;
+}
+
+.signup-wrapper:hover .signup-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.signup-button {
+  margin-left: 1.5rem;
+}
+.signup-button:hover {
+  cursor: pointer;
+  color: #39ac39;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+.home-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #79c27c;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.search-container {
+  text-align: center;
+  margin: 2rem;
+}
+.grace-info {
+  margin-bottom: 20px;
+}
+
+.user-story {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.target-users {
+  margin-top: 20px;
+}
+
+.volunteers-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.volunteers {
+  width: 60%;
+}
+
+.volunteer-details {
+  background-color: #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.volunteer-details h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+.volunteer-details p {
+  color: #333;
+  margin-top: 5px;
+}
+
+.volunteer-details:hover {
+  background-color: #fff;
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+/* @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  } */
+
+/* Add more mobile-specific styles here */
+/* */
+
+/* Tablet Styles */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  /* Adjust styles for tablets here */
+/* } */
+
+/* Mobile Styles */
+/* @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pages {
+    padding: 0 10px;
+  }
+
+  /* Add more mobile-specific styles here */
